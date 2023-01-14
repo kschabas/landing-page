@@ -11,6 +11,7 @@ body {
 .hero img {
     width: 300px;
     height:auto;
+    flex: 0 0 auto;
 }
 
 .header {
@@ -18,7 +19,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 10px 50px;
+    padding: 10px 100px;
     height: 30px;
     flex: 0 0 auto;
 }
@@ -30,16 +31,40 @@ body {
  color: #F9FAF8; 
 }
 
-.header-links a
+.header-links a {
+    margin: 15px;
+}
+
+.header-links a, .hero-container p
 {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
-    margin: 15px;
 }
 
 .hero {
-    padding: 50px 50px;
+    padding: 50px 100px;
     background-color: #1F2937;
     flex: 1 1 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    flex: 1;
+}
+
+.hero-container button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px
+}
+
+.info h1 {
+    text-align: center;
 }

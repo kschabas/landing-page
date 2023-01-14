@@ -99,3 +99,30 @@ body {
     padding: 15px;
     border-radius: 25px;
 }
+
+.quote {
+     background-color: #E5E7EB;
+     display: flex;
+     justify-content: center;  
+}
+
+.quote-block {
+    margin: auto;
+    color:#1F2937;
+    flex: 0 1 700px;
+    padding: 50px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0px;
+}
+
+.quote-attribution {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+

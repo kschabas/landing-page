@@ -12,6 +12,7 @@ body {
     width: 300px;
     height:auto;
     flex: 0 0 auto;
+    margin-left: 50px;
 }
 
 .header {
@@ -126,3 +127,39 @@ body {
     font-size: 24px;
 }
 
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.call-to-action-block {
+    background-color:#3882F6;
+    flex: 0 1 1000px;
+    border-radius: 25px;
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action-text {
+    color: white;
+    margin: 0px;
+}
+
+.call-to-action-block button {
+    border-radius: 5px;
+    padding: 5px 15px;
+    height: 35px;
+    color: white;
+    border-color: white;
+    background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
